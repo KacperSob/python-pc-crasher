@@ -6,9 +6,13 @@ os, webbrowser, time, art<br />
 <br />
 Installation:<br />
 ```console
-$pip install art==5.7
-$pip install os
-$pip install time
+$pip install art
 $pip install webbrowser
 $git clone https://github.com/KacperSob/python-pc-crasher
+```
+<br />
+How to run:<br />
+```console
+$cd python-pc-crasher
+$python PythonPcCrasher.py
 ```
