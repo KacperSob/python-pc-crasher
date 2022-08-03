@@ -10,9 +10,8 @@ $pip install art
 $pip install webbrowser
 $git clone https://github.com/KacperSob/python-pc-crasher
 ```
-<br />
 How to run:<br />
-```shell
+```console
 $cd python-pc-crasher
 $python PythonPcCrasher.py
 ```
