@@ -12,7 +12,7 @@ $git clone https://github.com/KacperSob/python-pc-crasher
 ```
 <br />
 How to run:<br />
-```console
+```console2
 $cd python-pc-crasher
 $python PythonPcCrasher.py
 ```
