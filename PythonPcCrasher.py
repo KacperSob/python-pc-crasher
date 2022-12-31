@@ -19,13 +19,14 @@ if (int(rick) == 3):
 
 time.sleep(3)
 
+
+
 if (int(full) == 1):
 	while a == 1:
 		ib = i + 1
 		name = 'YouGotHackedBro_' + str(ib) + '.txt'
 		fp = open(name, 'w')
 		print("Created file n " + str(ib))
-
 		for x in range(10):
 			xb = x + 1
 			fp.write("X"*1024*1024*10)
@@ -55,8 +56,15 @@ if (int(rick) == 1):
 	# webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
 elif (int(rick) == 2):
 	print("You choosed third option. Let's go")
-	while a == 1:
-		os.system("start")
+	yup = input("Are you on linux (1) or windows (2)?: ")
+	match int(yup):
+		case 1:
+			while a == 1:
+				os.system("gnome-terminal -e 'bash -c \"sudo apt-get update; exec bash\"'")
+		case 2:
+			while a == 2:
+				os.system("start")
+
 	# os.system("start")
 elif (int(rick) == 3):
 	print("Let's see how your link looks like...")
@@ -73,6 +81,5 @@ elif (int(rick) == 4):
 	f = open(name, "rt") 
 	while a == 1:
 		f = open(name, "rt")
-
 
 fp.close()
